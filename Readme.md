@@ -1,5 +1,7 @@
-# Predicting the wine quality Ridge and Ridge cross-validation model
-
+# Predicting the wine quality 
+- Ridge and Ridge cross-validation model
+- Lasso and Lasso cross-validation model
+- Elastic Net model
 ## Description
 
 In this project I create a Ridge and a RidgeCV model to predict the quality of wines.
