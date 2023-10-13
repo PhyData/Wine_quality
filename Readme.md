@@ -10,6 +10,10 @@ Another characteristic that reduces the perfomance of the model is the presence 
 
 In general, the trends of testing data and predicted one is fairly similar, but it have to be carefully looked since the model seems predict with lower values when the test data is abruptly change. 
 
+When Lasso model is applied the errors are similarly applied the MSE is around 0.42, but the model improve up to 0.31 its performance after cleaning the data. Finally, I apply an Elastic Net model where this model combine both Ridge and Lasso formalisms. This model shows that a mse up to 0.31 without cleaning data and even after cleaning the creation performance is equal to that value. I notice that adding the hyper-parameter l1_ratio to ELASTIC-NETCV improves the mse from 0.43 to 0.31.
+
+I consider that for this project the wine quality can be dencently well predicted by the last model tested in this repository.
+
 
 ----
 ### Author
